@@ -1,0 +1,53 @@
+body, html {
+    background-color: #1e392a;
+  }
+  
+  .navigation, ul, li{
+    display:flex;
+    padding:5px;
+    float:right;
+  }
+  
+  .navigation:hover{
+    background-color:#3cc47c;
+  }
+  .navigation{
+    border: 1px solid black;
+    border-radius:8px;
+    background-color: #e9c983;
+  }
+  
+  #signUp{
+    border:1px solid black;
+    border-radius:7px;
+    height:400px;
+    width:400px;
+    background-color:  #e9c983;
+    float:right;
+  }
+  
+  #signUp:hover {
+    background-color:#3cc47c;
+  }
+  
+  .box:hover{
+    background-color:#3cc47c;
+  }
+  
+  .box {
+    border: 1px solid black;
+    border-radius:8px;
+    margin:5px;
+    padding:10px;
+    background-color:#e9c983;
+  }
+  
+  .main {
+    display:flex;
+  }
+  
+  .foot{
+    border: 1 px solid black;
+    border-radius: 8px;
+    background-color: red;
+  }
