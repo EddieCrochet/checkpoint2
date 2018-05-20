@@ -1,53 +1,86 @@
-body, html {
+body {
     background-color: #1e392a;
+    margin: 0 auto;
   }
   
   .navigation, ul, li{
     display:flex;
+    align-items:center;
     padding:5px;
     float:right;
   }
   
   .navigation:hover{
     background-color:#3cc47c;
+    box-shadow: 0 0 5px 10px #3cc47c;
   }
   .navigation{
-    border: 1px solid black;
     border-radius:8px;
     background-color: #e9c983;
+    height:30px;
+    box-shadow: 0 0 5px 10px #e9c983;
   }
   
   #signUp{
-    border:1px solid black;
     border-radius:7px;
-    height:400px;
-    width:400px;
+    height:200px;
+    width:500px;
     background-color:  #e9c983;
     float:right;
+    box-shadow: 0 0 5px 10px #e9c983;
   }
   
   #signUp:hover {
     background-color:#3cc47c;
+    box-shadow: 0 0 5px 10px #3cc47c;
   }
   
   .box:hover{
     background-color:#3cc47c;
+    box-shadow: 0 0 5px 10px #3cc47c;
+  }
+
+  .foot:hover{
+    background-color:#3cc47c;
+    box-shadow: 0 0 5px 10px #3cc47c;
   }
   
+.head:hover{
+    background-color:#3cc47c;
+    box-shadow: 0 0 5px 10px #3cc47c;
+  }
+
   .box {
-    border: 1px solid black;
     border-radius:8px;
     margin:5px;
     padding:10px;
     background-color:#e9c983;
+    box-shadow: 0 0 5px 10px #e9c983;
+    height:350px;
+    width:250px;
   }
   
   .main {
     display:flex;
+    justify-content: space-around;
   }
   
   .foot{
-    border: 1 px solid black;
     border-radius: 8px;
-    background-color: red;
+    background-color: #e9c983;
+    width:300px;
+    box-shadow: 0 0 5px 10px #e9c983;
+  }
+   .head{ 
+    height:100%;
+    width:100%;
+    border-radius: 80px;
+    background-color: #e9c983;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0 0 5px 10px #e9c983;
+   } 
+  .banner, img{
+    height:500px;
+    width:850px;
   }
